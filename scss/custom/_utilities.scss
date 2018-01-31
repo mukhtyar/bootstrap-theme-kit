@@ -1,0 +1,4 @@
+// Gray backgrounds
+@each $color, $value in $grays {
+  @include bg-variant(".bg-gray-#{$color}", $value);
+}
